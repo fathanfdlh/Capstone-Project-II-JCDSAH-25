@@ -6,18 +6,18 @@
 
 ## Table of Contents
 
-- [Latar Belakang](#introduction)
-- [Problem Statement](#problem-statement)
-- [Dataset](#dataset)
-- [Methodology](#methodology)
-- [Key Findings](#key-findings)
-- [Recommendations](#recommendations)
-- [Technologies Used](#technologies-used)
-- [How to Run the Project](#how-to-run-the-project)
+- Latar Belakang
+- Problem Statement
+- Dataset
+- Methodology
+- Key Findings
+- Recommendations
+- Technologies Used
+- How to Run the Project
 
 ## Introduction
 
-Dalam lanskap ritel supermarket yang sangat kompetitif, kesuksesan tidak hanya diukur dari peningkatan penjualan, tetapi juga kemampuan untuk mempertahankan pelanggan dan mengimplementasikan strategi pemasaran yang tepat sasaran. Setiap pelanggan memiliki keunikan dalam latar belakang demografi, perilaku belanja, dan respons terhadap promosi. Oleh karena itu, pendekatan universal tidak lagi efektif.
+Dalam ekosistem ritel supermarket yang sangat kompetitif, untuk mencapai kesuksesan tidak hanya dituntut untuk meningkatkan penjualan, tetapi juga mampu mempertahankan pelanggan serta menjalankan strategi pemasaran yang tepat sasaran. Setiap pelanggan adalah individu yang unik dengan latar belakang demografis yang bervariasi, pola perilaku belanja yang berbeda, serta tingkat respons yang beragam terhadap kampanye promosi, maka pendekatan universal yang menyamaratakan semua pelanggan tidak lagi efektif.
 
 Proyek ini bertujuan untuk menganalisis perilaku pelanggan menggunakan pendekatan **Recency, Frequency, dan Monetary (RFM)** sebagai dasar segmentasi, dikombinasikan dengan data demografi dan analisis respons kampanye pemasaran. Melalui segmentasi ini, diharapkan perusahaan dapat mengidentifikasi pelanggan bernilai tinggi, pelanggan berisiko hilang, serta mengevaluasi efektivitas kampanye promosi untuk setiap segmen.
 
@@ -27,11 +27,11 @@ Bagaimana perusahaan supermarket dapat mengembangkan segmentasi pelanggan yang e
 
 ## Dataset
 
-Dataset 'Supermarket Customers' berisi 28 kolom yang mencakup informasi pribadi pelanggan (ID, Tahun Lahir, Pendidikan, Status Pernikahan, Pendapatan, Jumlah Anak, Tanggal Pendaftaran, Recency, Keluhan), pengeluaran produk (Anggur, Buah, Daging, Ikan, Manisan, Emas), promosi (Jumlah Pembelian dengan Diskon, Respons Kampanye 1-5, Respons Kampanye Terakhir), dan tempat pembelian (Pembelian Web, Katalog, Toko, Kunjungan Web Bulanan).
+Dataset 'Supermarket Customers' berisi 28 kolom yang mencakup informasi pribadi pelanggan (ID, Tahun Lahir, Pendidikan, Status Pernikahan, Pendapatan, Jumlah Anak, Tanggal Pendaftaran, Recency, Keluhan), pengeluaran produk (Wine, Buah, Daging, Ikan, Manisan, Emas), promosi (Jumlah Pembelian dengan Diskon, Respons Kampanye 1-5, Respons Kampanye Terakhir), dan tempat pembelian (Pembelian Web, Katalog, Toko, Kunjungan Web Bulanan).
 
 ## Methodology
 
-Proyek ini mengikuti langkah-langkah berikut:
+Project ini mengikuti langkah-langkah berikut:
 
 1.  **Data Understanding:** Memahami struktur data, tipe data, dan mengidentifikasi anomali awal seperti missing values dan inkonsistensi penamaan kolom.
 2.  **Data Cleaning & Formatting:**
@@ -68,10 +68,10 @@ Proyek ini mengikuti langkah-langkah berikut:
 1.  **Champions:** Pertahankan loyalitas melalui program eksklusif (VIP program, penawaran premium, layanan pelanggan prioritas). Fokus pada pengalaman non-diskon untuk menjaga margin.
 2.  **Loyal Customers:** Berikan nilai konsisten dan dorong mereka menjadi 'Champions' melalui akses awal produk atau penawaran personalisasi.
 3.  **Potential Loyalist:** Konversi menjadi pelanggan setia dengan penawaran menarik namun strategis. Gunakan diskon sebagai pendorong, dikombinasikan dengan nilai tambah seperti poin loyalitas ekstra atau bundle eksklusif.
-4.  **Cannot Lose Them:** Identifikasi alasan ketidakaktifan melalui komunikasi langsung (personal email, customer service). Hindari diskon dan fokus pada aktivasi kembali berdasarkan riwayat pembelian masa lalu.
-5.  **Hibernating:** Gunakan promosi dan diskon (flash sale, cuci gudang, kupon) untuk menarik perhatian kembali, dengan pertimbangan ROI yang ketat. Tawarkan diskon terbatas waktu atau promo untuk produk yang sering dibeli sebelumnya.
+4.  **Cannot Lose Them:** Identifikasi alasan ketidakaktifan melalui komunikasi langsung melalui personal email, customer service. Hindari diskon dan fokus pada aktivasi kembali berdasarkan riwayat pembelian masa lalu.
+5.  **Hibernating:** Gunakan promosi dan diskon seperti flash sale, cuci gudang, kupon diskon untuk menarik perhatian kembali, dengan pertimbangan ROI yang ketat. Tawarkan diskon terbatas waktu atau promo untuk produk yang sering dibeli sebelumnya.
 6.  **Strategi Berdasarkan Deal Segment:**
-    *   **Low Promo Usage:** Tawarkan penawaran eksklusif berfokus pada kualitas, kenyamanan, dan pengalaman (produk premium, layanan VIP).
+    *   **Low Promo Usage:** Tawarkan penawaran eksklusif berfokus pada kualitas, kenyamanan, dan pengalaman berikan produk premium, layanan VIP.
     *   **Medium Promo Usage:** Kombinasikan diskon moderat dengan manfaat tambahan (poin reward). Uji berbagai jenis promosi.
     *   **High Promo Usage:** Pertahankan promosi, arahkan ke pembelian volume lebih besar (misalnya, beli 2 gratis 1) atau perkenalkan produk dengan margin lebih baik melalui diskon terbatas.
 
@@ -86,22 +86,5 @@ Proyek ini mengikuti langkah-langkah berikut:
 *   SciPy (for statistical tests like Chi-Squared, T-test, ANOVA)
 *   Regular Expressions (re) for text processing
 
-## How to Run the Project
-
-1.  Clone this repository:
-    ```bash
-    git clone <repository_url>
-    ```
-2.  Navigate to the project directory:
-    ```bash
-    cd customer-segmentation-supermarket
-    ```
-3.  Install the required dependencies:
-    ```bash
-    pip install pandas numpy matplotlib seaborn plotly scikit-learn scipy
-    ```
-4.  Open the Jupyter Notebook or Google Colab file:
-    `Supermarket Customer Segmentation Analysis.ipynb` (or similar name)
-    ```
-6.  Run all cells in the notebook to reproduce the analysis and results.
-```
+## Link Google Drive 
+Berikut adalah link google drive: https://drive.google.com/drive/folders/1CauqFb7wyJht501vPPi_q_iIIoFwgfSt?usp=drive_link 
