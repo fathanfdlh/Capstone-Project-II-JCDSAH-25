@@ -55,7 +55,7 @@ Project ini mengikuti langkah-langkah berikut:
     *   **Campaign Effectiveness Analysis:** Menganalisis rata-rata pengeluaran, tingkat respons kampanye, dan rata-rata penerimaan kampanye berdasarkan `deal_segment` dan `rfm_segment`.
     *   Melakukan uji hipotesis (Uji-T dan Chi-Squared) untuk menguji hubungan antara segmen promo dengan pengeluaran dan respons kampanye, serta Uji ANOVA untuk membandingkan rata-rata penerimaan kampanye dan pengeluaran antar segmen RFM.
 
-## Key Findings
+## Conclusion
 
 *   **Champions** dan **Loyal Customers** adalah segmen paling bernilai, dengan pengeluaran dan frekuensi pembelian tinggi, respons kampanye yang baik, serta ketergantungan rendah terhadap diskon. Mereka didominasi oleh usia produktif (Middle-Aged, Young Adult, Adult), berpendidikan tinggi (Bachelor, PhD, Master), dan mayoritas berstatus 'In Relationship'. Produk wine adalah produk yang paling banyak dibeli.
 *   **Potential Loyalist** memiliki potensi besar untuk menjadi pelanggan setia. Mereka cukup responsif terhadap kampanye dan lebih sensitif terhadap diskon.
@@ -63,7 +63,7 @@ Project ini mengikuti langkah-langkah berikut:
 *   **Hibernating** adalah segmen terbesar namun kontribusinya paling rendah, dengan pengeluaran dan respons kampanye yang rendah, serta ketergantungan tinggi pada diskon.
 *   Penggunaan promo (`deal_segment`) memiliki asosiasi signifikan dengan nilai pelanggan dan respons kampanye. Pelanggan `Low Promo Usage` cenderung memiliki nilai belanja lebih tinggi, sementara `High Promo Usage` memiliki nilai belanja lebih rendah.
 
-## Recommendations
+## Strategic Recommendations
 
 1.  **Champions:** Pertahankan loyalitas melalui program eksklusif (VIP program, penawaran premium, layanan pelanggan prioritas). Fokus pada pengalaman non-diskon untuk menjaga margin.
 2.  **Loyal Customers:** Berikan nilai konsisten dan dorong mereka menjadi 'Champions' melalui akses awal produk atau penawaran personalisasi.
