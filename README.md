@@ -86,5 +86,6 @@ Project ini mengikuti langkah-langkah berikut:
 *   SciPy (for statistical tests like Chi-Squared, T-test, ANOVA)
 *   Regular Expressions (re) for text processing
 
-## Link Google Drive 
-Berikut adalah link google drive: https://drive.google.com/drive/folders/1CauqFb7wyJht501vPPi_q_iIIoFwgfSt?usp=drive_link 
+## Link 
+*   Link google drive   : https://drive.google.com/drive/folders/1CauqFb7wyJht501vPPi_q_iIIoFwgfSt?usp=drive_link 
+*   Link tableau public : https://public.tableau.com/views/SupermarketCustomerDashboardProject/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
